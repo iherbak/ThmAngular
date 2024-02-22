@@ -1,0 +1,24 @@
+.content {
+    display: grid;
+    justify-items: center;
+  .grid {
+    display: grid;
+    justify-items: center;
+
+    mat-form-field {
+      grid-column-start: span 1;
+    }
+    .h-line {
+      grid-column-start: span 1;
+    }
+    .results {
+      grid-column-start: span 2;
+
+      .result-grid {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        text-align: end;
+      }
+    }
+  }
+}
